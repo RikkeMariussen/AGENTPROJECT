@@ -1,0 +1,73 @@
+{
+  "id": "intro-meditation",
+  "title": "Intro to Meditation",
+  "description": "Test your understanding of core meditation concepts and their benefits.",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "What is mindfulness meditation primarily focused on?",
+      "options": [
+        "Achieving a blank mind",
+        "Controlling your thoughts",
+        "Observing present-moment experience without judgment",
+        "Visualising future goals"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "text": "How long should a beginner meditation session typically last?",
+      "options": [
+        "At least 60 minutes",
+        "5 to 15 minutes",
+        "Exactly 30 minutes",
+        "Duration doesn't matter"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q3",
+      "text": "What is the purpose of using an 'anchor' in meditation?",
+      "options": [
+        "To physically stay still",
+        "To block external sounds",
+        "To give the mind something to return to when it wanders",
+        "To measure how long you've been meditating"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q4",
+      "text": "Which of these is a recognised benefit of regular meditation?",
+      "options": [
+        "Improved night vision",
+        "Reduced activity in the default mode network",
+        "Faster metabolism",
+        "Increased caffeine sensitivity"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "text": "What does 'body scan' meditation involve?",
+      "options": [
+        "Tensing and releasing each muscle group",
+        "Directing attention sequentially through parts of the body",
+        "Visualising light entering the body",
+        "Counting heartbeats"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q6",
+      "text": "Which statement best describes the role of thoughts during meditation?",
+      "options": [
+        "Thoughts mean you are failing",
+        "Thoughts should be suppressed",
+        "Thoughts are normal; gently return focus when you notice them",
+        "Thoughts only occur in beginners"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}
