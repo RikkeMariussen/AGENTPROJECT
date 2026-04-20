@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { useParams, Navigate, Link } from 'react-router-dom'
+import { useParams, Navigate, Link, useSearchParams } from 'react-router-dom'
 import { quizzes } from '../data/quizzes/index'
 import { useQuizStorage } from '../hooks/useQuizStorage'
 import ProgressIndicator from '../components/quiz/ProgressIndicator'
@@ -9,6 +9,7 @@ import ReturningUserPrompt from '../components/quiz/ReturningUserPrompt'
 
 export default function QuizDetail() {
   const { id } = useParams()
+  const [searchParams] = useSearchParams()
   const quiz = quizzes.find((q) => q.id === id)
   const { getResult, saveResult } = useQuizStorage(id)
 
@@ -21,7 +22,12 @@ export default function QuizDetail() {
     setCurrentIndex(0)
     setAnswers([])
     const saved = getResult()
-    setPhase(saved ? 'returning_prompt' : 'in_progress')
+    if (searchParams.get('vis') === 'tidligere' && saved) {
+      setAnswers(saved.answers)
+      setPhase('results')
+    } else {
+      setPhase(saved ? 'returning_prompt' : 'in_progress')
+    }
   }, [id])
 
   if (!quiz) return <Navigate to="/quizzes" replace />
@@ -57,15 +63,13 @@ export default function QuizDetail() {
 
   return (
     <div className="max-w-2xl mx-auto px-6 py-16">
-      {/* Back link */}
       <Link
         to="/quizzes"
         className="inline-flex items-center text-xs text-stone-400 hover:text-sage-600 transition-colors mb-8"
       >
-        ← All Quizzes
+        ← Alle Quizzer
       </Link>
 
-      {/* Quiz header */}
       <div className="mb-8">
         <h1 className="text-2xl font-light text-stone-800 mb-1">{quiz.title}</h1>
         <p className="text-stone-400 text-sm font-light">{quiz.description}</p>

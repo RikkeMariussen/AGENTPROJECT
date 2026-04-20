@@ -1,0 +1,51 @@
+{
+  "id": "om-at-vaere-opmerksom",
+  "title": "Om at være opmærksom og lysvågen",
+  "description": "Test din viden om opmærksomhed som meditationsform og hvad det vil sige at være lysvågen.",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "I denne meditationsform retter man sin opmærksomhed mod objekter i bevidstheden",
+      "options": ["Rigtigt", "Forkert"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "text": "Objekter i bevidstheden er:",
+      "options": [
+        "Tanker, følelser og lyde",
+        "Alt som har en begyndelse og en afslutning",
+        "Tanker og genstande"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q3",
+      "text": "Man kan ikke småsove og være opmærksom på samme tid?",
+      "options": ["Rigtigt", "Forkert"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q4",
+      "text": "At være opmærksom i meditation er ...",
+      "options": [
+        "at være opmærksom på alt, der rører sig i bevidstheden",
+        "ikke at hænge fast i noget",
+        "at være fast fokuseret på et punkt"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "text": "Når man er opmærksom er der ingen tanker?",
+      "options": ["Rigtigt", "Forkert"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q6",
+      "text": "Man skal anstrenge sig for at være opmærksom?",
+      "options": ["Rigtigt", "Forkert", "Hverken rigtigt eller forkert"],
+      "correctIndex": 2
+    }
+  ]
+}

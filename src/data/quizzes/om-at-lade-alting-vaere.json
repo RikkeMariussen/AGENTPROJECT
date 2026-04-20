@@ -1,0 +1,37 @@
+{
+  "id": "om-at-lade-alting-vaere",
+  "title": "Om at lade alting være",
+  "description": "Forstår du hvad det vil sige at lade alting være — og hvad det ikke vil sige?",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Hvis man overholder den første instruktion og er fuldkommen stille, så lader man også alting være?",
+      "options": ["Rigtigt", "Forkert"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "text": "Du er dine tanker og følelser?",
+      "options": ["Rigtigt", "Forkert"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q3",
+      "text": "At lade alting være, som det er, er det samme som at vælge ikke at have et problem?",
+      "options": ["Rigtigt", "Forkert"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q4",
+      "text": "At lade alting være som det er, betyder at man først og fremmest skal lade de negative tanker være?",
+      "options": ["Rigtigt", "Forkert"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "text": "Når vi lader ALTING være, så har vi droppet vores relation til alt bevidsthedsindhold",
+      "options": ["Rigtigt", "Forkert"],
+      "correctIndex": 0
+    }
+  ]
+}

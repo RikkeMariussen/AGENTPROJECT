@@ -1,0 +1,53 @@
+{
+  "id": "om-at-vaere-stille",
+  "title": "Om at være stille",
+  "description": "Hvad ved du om stilhed — den indre og den ydre dimension af meditation?",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "At være stille har både en indre og en ydre del",
+      "options": ["Rigtigt", "Forkert"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "text": "Den indre del betyder:",
+      "options": [
+        "At jeg ikke forholder mig til tanker og følelser",
+        "At alle tanker og følelser står stille",
+        "At jeg kan fjerne alle tanker og følelser",
+        "At jeg ikke dagdrømmer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "text": "Man kan ikke være stille når der er larm i nærheden?",
+      "options": ["Rigtigt", "Forkert"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q4",
+      "text": "Man kan godt være fuldkommen stille og samtidig have hovedet fuld af tanker igennem hele meditationen?",
+      "options": ["Rigtigt", "Forkert"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "text": "Man kan kun meditere hvis man sidder fuldkommen stille?",
+      "options": ["Rigtigt", "Forkert"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q6",
+      "text": "Stilhed er ...",
+      "options": [
+        "en følelse",
+        "en oplevelse",
+        "en måde at have det på",
+        "en indre position i forhold til tanker og følelser"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

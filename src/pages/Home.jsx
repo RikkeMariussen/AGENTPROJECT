@@ -3,16 +3,16 @@ import Button from '../components/ui/Button'
 
 const benefits = [
   {
-    title: 'Reduce Stress',
-    body: 'Regular practice calms the nervous system and lowers cortisol, leaving you more resilient each day.',
+    title: 'Reducer Stress',
+    body: 'Regelmæssig praksis beroliger nervesystemet og sænker kortisolniveauet — og gør dig mere robust i hverdagen.',
   },
   {
-    title: 'Sharpen Focus',
-    body: 'Even a few minutes of mindful attention trains the mind to return to the present — a skill that carries into every task.',
+    title: 'Skærp Fokus',
+    body: 'Selv få minutters opmærksom tilstedeværelse træner sindet i at vende tilbage til nuet — en evne der bærer ind i alt, hvad du gør.',
   },
   {
-    title: 'Sleep Deeply',
-    body: 'Quieting mental chatter before bed creates the conditions for longer, more restorative sleep.',
+    title: 'Sov Dybere',
+    body: 'At stille den indre støj ned inden sengetid skaber de rette betingelser for en længere og mere genopbyggende søvn.',
   },
 ]
 
@@ -22,19 +22,18 @@ export default function Home() {
       {/* Hero */}
       <section className="max-w-2xl mx-auto px-6 pt-20 pb-16 text-center">
         <p className="text-sage-500 text-sm font-medium tracking-widest uppercase mb-4">
-          A calm place to begin
+          Et roligt sted at begynde
         </p>
         <h1 className="text-4xl sm:text-5xl font-light text-stone-800 leading-tight mb-6">
-          Begin Your Journey{' '}
-          <span className="text-sage-600 font-normal">Inward</span>
+          Begynd Din Rejse{' '}
+          <span className="text-sage-600 font-normal">Indad</span>
         </h1>
         <p className="text-stone-500 text-lg font-light leading-relaxed mb-10 max-w-lg mx-auto">
-          Meditation is not about emptying the mind — it's about learning to
-          observe it. Explore our guided teachings, breathing exercises, and
-          self-discovery quizzes at your own pace.
+          Meditation handler ikke om at tømme sindet — det handler om at lære
+          at observere det. Udforsk vores vejledninger og quizzer i dit eget tempo.
         </p>
         <Link to="/quizzes">
-          <Button className="px-8 py-3.5 text-base">Explore the Quizzes</Button>
+          <Button className="px-8 py-3.5 text-base">Udforsk Quizzerne</Button>
         </Link>
       </section>
 
@@ -46,7 +45,7 @@ export default function Home() {
       {/* Benefits */}
       <section className="max-w-4xl mx-auto px-6 py-16">
         <h2 className="text-center text-stone-400 text-xs font-medium tracking-widest uppercase mb-10">
-          Why practise?
+          Hvorfor meditere?
         </h2>
         <div className="grid sm:grid-cols-3 gap-6">
           {benefits.map((b) => (

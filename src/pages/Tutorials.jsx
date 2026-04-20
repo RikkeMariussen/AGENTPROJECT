@@ -10,8 +10,8 @@ export default function Tutorials() {
   return (
     <div className="max-w-4xl mx-auto px-6 py-16 animate-fade-in">
       <div className="mb-12 text-center">
-        <p className="text-sage-500 text-xs font-medium tracking-widest uppercase mb-3">Learn</p>
-        <h1 className="text-3xl font-light text-stone-800">Video Tutorials</h1>
+        <p className="text-sage-500 text-xs font-medium tracking-widest uppercase mb-3">Lær</p>
+        <h1 className="text-3xl font-light text-stone-800">Videovejledninger</h1>
       </div>
 
       {videos.length === 0 ? (

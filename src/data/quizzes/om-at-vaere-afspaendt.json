@@ -1,0 +1,52 @@
+{
+  "id": "om-at-vaere-afspaendt",
+  "title": "Om at være afspændt (ease of being)",
+  "description": "Forstår du forholdet mellem indre og ydre afspændthed i meditationspraksis?",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Den indre del af instruktionen er den vigtigste?",
+      "options": ["Rigtigt", "Forkert"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "text": "Det indre og ydre afspejler hinanden i meditationen. Hvad betyder det?",
+      "options": [
+        "Hvis man ser anstrengt ud i ansigtet, så har man psykiske problemer",
+        "At hvis man smiler, så virker meditationen bedre",
+        "At hvis der er fred på ydersiden, så er der også fred på indersiden",
+        "At hvis man er afspændt på ydersiden, er det lettere at være afspændt på indersiden og omvendt"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q3",
+      "text": "Det gælder om at blive mere og mere afspændt i kroppen i løbet af meditationen?",
+      "options": ["Rigtigt", "Forkert"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q4",
+      "text": "At være afspændt i forhold til sin oplevelse betyder, at vi",
+      "options": [
+        "ikke blander os i hvad vi oplever",
+        "observerer vores tanker og skubber dem væk",
+        "ikke må føle noget når vi mediterer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "text": "Meditation virker ikke hvis man er anspændt i kroppen",
+      "options": ["Rigtigt", "Forkert"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q6",
+      "text": "Hvis jeg er helt afspændt i kroppen efter en meditation er det et tegn på at jeg har gjort det rigtigt?",
+      "options": ["Rigtigt", "Forkert", "Måske"],
+      "correctIndex": 2
+    }
+  ]
+}

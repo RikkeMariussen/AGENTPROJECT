@@ -10,12 +10,12 @@ export default function ResultScreen({ quiz, answers, onRetake }) {
 
   const message =
     pct === 100
-      ? 'Perfect score — beautifully done.'
+      ? 'Perfekt resultat — smukt klaret.'
       : pct >= 70
-      ? 'Well done. Keep exploring.'
+      ? 'Godt gået. Bliv ved med at udforske.'
       : pct >= 40
-      ? 'A good start. Each attempt deepens understanding.'
-      : 'Every step on the path matters.'
+      ? 'Et godt udgangspunkt. Hvert forsøg uddyber forståelsen.'
+      : 'Hvert skridt på vejen betyder noget.'
 
   return (
     <div className="animate-fade-in">
@@ -26,7 +26,7 @@ export default function ResultScreen({ quiz, answers, onRetake }) {
           <span className="text-2xl text-stone-400 font-light">/ {quiz.questions.length}</span>
         </div>
         <p className="text-stone-400 text-sm font-light italic mb-1">{message}</p>
-        <p className="text-xs text-stone-300">{pct}% correct</p>
+        <p className="text-xs text-stone-300">{pct}% korrekt</p>
       </div>
 
       {/* Per-question breakdown */}
@@ -47,8 +47,8 @@ export default function ResultScreen({ quiz, answers, onRetake }) {
               </p>
               {!correct && (
                 <p className="text-xs text-stone-500 font-light">
-                  Your answer: <span className="text-red-600">{q.options[answers[i]]}</span>
-                  {' · '}Correct: <span className="text-sage-700">{q.options[q.correctIndex]}</span>
+                  Dit svar: <span className="text-red-600">{q.options[answers[i]]}</span>
+                  {' · '}Rigtigt: <span className="text-sage-700">{q.options[q.correctIndex]}</span>
                 </p>
               )}
               {correct && (
@@ -61,9 +61,9 @@ export default function ResultScreen({ quiz, answers, onRetake }) {
 
       {/* Actions */}
       <div className="flex gap-3 justify-center">
-        <Button variant="ghost" onClick={onRetake}>Try Again</Button>
+        <Button variant="ghost" onClick={onRetake}>Prøv Igen</Button>
         <Link to="/quizzes">
-          <Button>All Quizzes</Button>
+          <Button>Alle Quizzer</Button>
         </Link>
       </div>
     </div>

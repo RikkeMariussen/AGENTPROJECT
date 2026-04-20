@@ -1,0 +1,57 @@
+{
+  "id": "om-meditation",
+  "title": "Om meditation",
+  "description": "Test din forståelse af meditation — og kunsten at vælge ikke at have et problem.",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Målet med meditation er at være helt tom for tanker",
+      "options": ["Rigtigt", "Forkert"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "text": "Hvor længe skal man meditere?",
+      "options": [
+        "Det er lige meget",
+        "20 minutter om dagen",
+        "Så længe man på forhånd har besluttet sig for at gøre det",
+        "Altid over 10 minutter ad gangen"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q3",
+      "text": "Man kan kun meditere rigtigt hvis man sidder i lotusstilling",
+      "options": ["Rigtigt", "Forkert"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q4",
+      "text": "Meditation er en teknik",
+      "options": ["Rigtigt", "Forkert"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "text": "Hvis jeg opdager, at jeg tænker på et problem, hvad gør jeg så?",
+      "options": [
+        "Gennemgår instruktionerne og vender tilbage til meditationen",
+        "Tænker på noget andet",
+        "Ingenting - jeg er allerede fri af tankerne",
+        "Skubber tankerne væk"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q6",
+      "text": "Hvis jeg synes det er svært at meditere, hvad gør jeg så?",
+      "options": [
+        "Så vælger jeg ikke at gøre et problem ud af det",
+        "Så forsøger jeg at tænke på noget positivt",
+        "Så gør jeg det forkert"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}
