@@ -10,7 +10,7 @@ import BlogPost from './pages/BlogPost'
 
 export default function App() {
   return (
-    <BrowserRouter basename="/meditation-site/">
+    <BrowserRouter basename="/AGENTPROJECT/">
       <div className="min-h-screen flex flex-col bg-stone-50 font-sans">
         <Navbar />
         <main className="flex-1">
