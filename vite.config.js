@@ -5,6 +5,3 @@ export default defineConfig({
   plugins: [react()],
   base: '/AGENTPROJECT/',
 })
-
-// vite.config.js
-import { defineConfig } from 'vite'
